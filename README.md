@@ -428,19 +428,20 @@ Follow these steps to set up YOLOv5 in your environment:
 
 ## 🚀 Project Completion
 
-Congratulations! You have successfully set up a ROS package, integrated WebSocket communication, and implemented real-time sensor data logging and visualization. This project demonstrates your ability to work with ROS, sensor data integration, and real-time data visualization, showcasing your technical skills and problem-solving capabilities.
+Congratulations! You have successfully set up a ROS package, integrated WebSocket communication, and implemented real-time sensor data logging and visualization. This project demonstrates your ability to work with ROS, sensor data integration, lake detection and real-time data visualization, showcasing your technical skills and problem-solving capabilities.
 
 # **GLOF Detection System** 🚀
 
 ## **Project Overview**
 
-This project involves the integration of multiple environmental sensors with a WebSocket-based communication system for real-time data streaming and logging. The goal is to gather sensor data, visualize it using PlotJuggler, and process it for GLOF (Glacial Lake Outburst Flood) detection.
+This project involves the integration of multiple environmental sensors with a WebSocket-based communication system for real-time data streaming and logging. The goal is to gather sensor data, visualize it using PlotJuggler, and process it for GLOF (Glacial Lake Outburst Flood) detection, also detect lakes created and reduce the water in them to prevent GLOF.
 
 ## **Key Features**
 - Integration of various sensors (BNO055, DHT22, BMP280, etc.) for monitoring critical parameters.
 - Real-time data streaming using WebSockets.
 - Data logging to CSV for historical data analysis.
 - Real-time data visualization using PlotJuggler.
+- Model for lake detection.
 
 ---
 
@@ -450,7 +451,7 @@ This project involves the integration of multiple environmental sensors with a W
 - **Developed a data logging system** using **CSV** for sensor data.
 - **Integrated multiple sensors** for various environmental parameters.
 - **Utilized PlotJuggler ROS** for **real-time data visualization**.
-- Used Micro-controller(Jetson-Nano)
+- Used Micro-controller(Jetson-Nano) for Lake detection.
 
-This project highlights your **expertise in ROS**, **IoT sensor integration**, and **data handling**, making you well-equipped for further challenges in **robotics** and **automation**.
+This project highlights your **expertise in ROS**, **IoT sensor integration**, **Model for Lake Detection** and **data handling**, making you well-equipped for further challenges in **robotics** and **automation**.
 
