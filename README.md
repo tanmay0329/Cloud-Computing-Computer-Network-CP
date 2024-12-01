@@ -397,6 +397,35 @@ rosrun your_package_name websocket_to_ros.py
 ```
 Replace your_package_name with the actual package name you created earlier.
 
+# YOLOv5 Quickstart Guide For the Lake Detection Model
+
+## Documentation
+For full documentation on training, testing, and deployment, please refer to the [YOLOv5 Documentation](https://github.com/ultralytics/yolov5/wiki).
+
+## Installation
+Follow these steps to set up YOLOv5 in your environment:
+
+### Requirements
+- Python >= 3.8.0
+- PyTorch >= 1.8
+
+### Steps
+1. Clone the YOLOv5 repository:
+   ```bash
+   git clone https://github.com/ultralytics/yolov5
+2. Navigate to the cloned directory:
+   ```bash
+   cd yolov5
+3. Install the required dependencies:
+   Install all the necessary packages listed in the `requirements.txt` file:
+   ```bash
+   pip install -r requirements.txt
+4. Verify the installation:  
+   Use the following command to check if YOLOv5 is correctly installed. This command runs object detection on an example image using a pre-trained YOLOv5s model:  
+   ```bash
+   python detect.py --source 0 --weights lake.pt --conf 0.25
+
+
 ## 🚀 Project Completion
 
 Congratulations! You have successfully set up a ROS package, integrated WebSocket communication, and implemented real-time sensor data logging and visualization. This project demonstrates your ability to work with ROS, sensor data integration, and real-time data visualization, showcasing your technical skills and problem-solving capabilities.
