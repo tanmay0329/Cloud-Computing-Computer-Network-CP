@@ -423,7 +423,11 @@ Follow these steps to set up YOLOv5 in your environment:
 4. Verify the installation:  
    Use the following command to check if YOLOv5 is correctly installed. This command runs object detection on an example image using a pre-trained YOLOv5s model:  
    ```bash
-   python detect.py --source 0 --weights lake.pt --conf 0.25
+   python detect.py --source 0 --weights lake.pt --conf 0.75
+   
+My Dataset is available on the link below:
+
+- [Lake Detection](https://app.roboflow.com/custom-datasets-aum5v/golf-lake/1)
 
 
 ## 🚀 Project Completion
