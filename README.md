@@ -459,3 +459,4 @@ This project involves the integration of multiple environmental sensors with a W
 
 This project highlights your **expertise in ROS**, **IoT sensor integration**, **Model for Lake Detection** and **data handling**, making you well-equipped for further challenges in **robotics** and **automation**.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14738304.svg)](https://doi.org/10.5281/zenodo.14738304)
